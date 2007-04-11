@@ -1,0 +1,31 @@
+libxau (1:1.0.0-3) unstable; urgency=low
+
+  * Reorder makeshlib command in rules file so that ldconfig is run
+    properly. Thanks Drew Parsons and Steve Langasek.
+
+ -- David Nusinow <dnusinow@debian.org>  Tue, 18 Apr 2006 21:49:56 -0400
+
+libxau (1:1.0.0-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 23 Mar 2006 22:44:28 -0500
+
+libxau (1:1.0.0-1) experimental; urgency=low
+
+  * First upload to Debian
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 29 Dec 2005 20:51:23 -0500
+
+libxau (1:0.1.2-2) breezy; urgency=low
+
+  * Add build dependencies: pkg-config, x11proto-core-dev
+  * Change Build-Depends-Indep to Build-Depends.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 23 May 2005 20:17:11 +0000
+
+libxau (1:0.1.2-1) breezy; urgency=low
+
+  * First libxau release.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Mon, 16 May 2005 22:10:17 +1000
