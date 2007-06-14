@@ -1,5 +1,5 @@
 Source: libxau
-Section: x11
+Section: gui
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Fabio M. Di Nitto <fabbione@fabbione.net>
@@ -9,6 +9,7 @@ Build-Depends: debhelper (>= 4.0.0), pkg-config, x11proto-core-dev
 Standards-Version: 3.6.1.0
 
 Package: libxau6
+Section: gui
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: X11 authorisation library
@@ -24,6 +25,7 @@ Description: X11 authorisation library
  :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
 
 Package: libxau6-dbg
+Section: host-tools
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxau6 (= ${Source-Version})
 Description: X11 authorisation library (debug package)
@@ -42,6 +44,7 @@ Description: X11 authorisation library (debug package)
  :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
 
 Package: libxau-dev
+Section: host-tools
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxau6 (= ${Source-Version}), x11proto-core-dev
 Description: X11 authorisation library (development headers)
