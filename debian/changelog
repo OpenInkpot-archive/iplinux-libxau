@@ -1,3 +1,9 @@
+libxau (1:1.0.0-4.slind1) unstable; urgency=low
+
+  * Move -dev package to 'libdevel' and -dbg package to 'debug' sections.
+
+ -- Alexander Shishkin <virtuoso@slind.org>  Tue, 18 Dec 2007 12:53:00 +0300
+
 libxau (1:1.0.0-4.slind0) unstable; urgency=low
 
   * Fixed maintainer and removed uploaders
