@@ -1,0 +1,57 @@
+libxau (1:1.0.4-1) asimov; urgency=low
+
+  * New upstream release.
+  * First build for IPlinux.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sat, 14 Mar 2009 16:07:18 +0600
+
+libxau (1:1.0.0-4.slind1) unstable; urgency=low
+
+  * Move -dev package to 'libdevel' and -dbg package to 'debug' sections.
+
+ -- Alexander Shishkin <virtuoso@slind.org>  Tue, 18 Dec 2007 12:53:00 +0300
+
+libxau (1:1.0.0-4.slind0) unstable; urgency=low
+
+  * Fixed maintainer and removed uploaders
+  * Fork.
+
+ -- Sergey Lapin <slapin@slind.org>  Thu, 07 Jun 2007 16:57:14 +0400
+
+libxau (1:1.0.0-4) unstable; urgency=low
+
+  * New build dependencies
+
+ -- Sergey Lapin <slapin@slind.org>  Tue, 29 May 2007 19:14:23 +0400
+
+libxau (1:1.0.0-3) unstable; urgency=low
+
+  * Reorder makeshlib command in rules file so that ldconfig is run
+    properly. Thanks Drew Parsons and Steve Langasek.
+
+ -- David Nusinow <dnusinow@debian.org>  Tue, 18 Apr 2006 21:49:56 -0400
+
+libxau (1:1.0.0-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 23 Mar 2006 22:44:28 -0500
+
+libxau (1:1.0.0-1) experimental; urgency=low
+
+  * First upload to Debian
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 29 Dec 2005 20:51:23 -0500
+
+libxau (1:0.1.2-2) breezy; urgency=low
+
+  * Add build dependencies: pkg-config, x11proto-core-dev
+  * Change Build-Depends-Indep to Build-Depends.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 23 May 2005 20:17:11 +0000
+
+libxau (1:0.1.2-1) breezy; urgency=low
+
+  * First libxau release.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Mon, 16 May 2005 22:10:17 +1000

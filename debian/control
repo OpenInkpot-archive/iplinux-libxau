@@ -1,0 +1,53 @@
+Source: libxau
+Section: gui
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dotedmag.net>
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), pkg-config, autoconf, automake, libtool, xorg-util-macros
+XCS-Cross-Build-Depends: x11proto-core-dev
+Build-Depends: debhelper (>= 7), pkg-config, x11proto-core-dev, autoconf, automake, libtool, xorg-util-macros
+Standards-Version: 3.8.0
+
+Package: libxau6
+Section: gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X11 authorisation library
+ This package provides the main interface to the X11 authorisation handling,
+ which controls authorisation for X connections, both client-side and
+ server-side.
+ .
+ More information about X.Org can be found at:
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+Package: libxau6-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxau6 (= ${binary:Version})
+Description: X11 authorisation library (debug package)
+ This package provides the main interface to the X11 authorisation handling,
+ which controls authorisation for X connections, both client-side and
+ server-side.
+ .
+ This package contains the debug versions of the library found in libxau6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+Package: libxau-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxau6 (= ${binary:Version}), x11proto-core-dev
+Description: X11 authorisation library (development headers)
+ This package provides the main interface to the X11 authorisation handling,
+ which controls authorisation for X connections, both client-side and
+ server-side.
+ .
+ This package contains the development headers for the library found in libxau6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
